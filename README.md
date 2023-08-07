@@ -9,9 +9,11 @@ So this is the simple basic range slider project.
 So in this range slider project the main thing to under is was oninput event handler and why we use the Anonymous function.
 
 var scroll = document.getElementById('rangevalue');
+
 var range = document.getElementById('result');
 
 range.innerHTML = scroll.value;
+
 scroll.oninput = function(){
     range.innerHTML = this.value;
 }
@@ -26,6 +28,9 @@ name when we want to perform a single operation, we can directly access the valu
 
 simply understand that when we are using some kind of event handlers then using anonymous function is simple, short and
 access directly the this.value. that's what we get.
+
+And always remember this value inside the function is window object until unless it doesn't have any target value, but our situation we have event handler oninput that is the target value.
+each time the event trigger this value get that current value.
 
 And the this.value is refer to the current value of the scroll event. and when the user change the value the oninput
 event triggered everytime and we use this.value to get the current value and assign it to the range.innerHTML that was
