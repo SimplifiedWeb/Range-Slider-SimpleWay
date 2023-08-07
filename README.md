@@ -1,4 +1,7 @@
 # Range-Slider-SimpleWay
+# The Main goal is to Understand The Logic How it is working.
+# Open project code one side and this readme another side to better understand what I'm trying to say.
+Check out Demo: https://simplifiedweb.github.io/Range-Slider-SimpleWay/
 I develop a range-slider, let me explain you my approach in simple way, Read the read.me file to understand and make use of it on different objectives
 
 So this is the simple basic range slider project.
